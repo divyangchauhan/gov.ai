@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gov.AI - Recent Bill Summaries</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold">Gov.AI</h1>
+            <p class="mt-2">AI-Powered Bill Summaries</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="mb-8">
+            <p class="text-gray-600">Last updated: {{ generated_date }}</p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {% for bill in bills %}
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold mb-2">{{ bill.billNumber }}</h2>
+                <p class="text-gray-600 mb-4">{{ bill.title[:200] }}...</p>
+                <div class="mb-4">
+                    <h3 class="font-semibold text-blue-600">AI Summary:</h3>
+                    <p class="text-gray-700">{{ bill.ai_summary[:200] }}...</p>
+                </div>
+                <a href="bill_{{ bill.billNumber }}.html" 
+                   class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                    Read More
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-4 py-6">
+            <p>Powered by Gov.AI - Automated Bill Analysis</p>
+        </div>
+    </footer>
+</body>
+</html>
