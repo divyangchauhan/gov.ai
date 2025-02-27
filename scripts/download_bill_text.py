@@ -139,8 +139,9 @@ def process_bills(bills_file, output_dir):
 
 def main():
     base_dir = Path(__file__).parent.parent
-    bills_file = base_dir / 'bills.json'
-    text_dir = base_dir / 'data' / 'bill_texts'
+    data_dir = base_dir / 'data'
+    bills_file = data_dir / 'bills.json'
+    text_dir = data_dir / 'bill_texts'
     
     process_bills(bills_file, text_dir)
 
