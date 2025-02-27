@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ bill.billNumber }} - Gov.AI Bill Summary</title>
+    <title>{{ bill.type }}{{ bill.number }} - Gov.AI Bill Summary</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -17,7 +17,7 @@
 
     <main class="container mx-auto px-4 py-8">
         <div class="bg-white rounded-lg shadow-lg p-8">
-            <h1 class="text-3xl font-bold mb-6">{{ bill.billNumber }}</h1>
+            <h1 class="text-3xl font-bold mb-6">{{ bill.type }}{{ bill.number }}</h1>
             
             <div class="mb-8">
                 <h2 class="text-2xl font-semibold mb-4">Title</h2>
@@ -27,7 +27,7 @@
             <div class="mb-8">
                 <h2 class="text-2xl font-semibold mb-4">AI Summary</h2>
                 <div class="bg-blue-50 p-6 rounded-lg">
-                    <p class="text-gray-700">{{ bill.ai_summary }}</p>
+                    <p class="text-gray-700">{{ bill.ai_summary if bill.ai_summary else 'Summary not available' }}</p>
                 </div>
             </div>
 
@@ -42,10 +42,19 @@
                         <dt class="font-semibold text-gray-600">Last Updated</dt>
                         <dd>{{ bill.updateDate }}</dd>
                     </div>
-                    {% if bill.url %}
                     <div class="md:col-span-2">
                         <dt class="font-semibold text-gray-600">Original Bill</dt>
-                        <dd><a href="{{ bill.url }}" class="text-blue-600 hover:underline" target="_blank">View on Congress.gov</a></dd>
+                        <dd><a href="https://www.congress.gov/bill/{{ bill.congress }}th-congress/{{ 'house' if bill.originChamberCode == 'H' else 'senate' }}-{{ 'bill' if bill.type in ['HR', 'S'] else ('concurrent-resolution' if 'CON' in bill.type else ('joint-resolution' if 'J' in bill.type else 'resolution')) }}/{{ bill.number }}" class="text-blue-600 hover:underline" target="_blank">View on Congress.gov</a></dd>
+                    </div>
+                    {% if bill.text_info %}
+                    <div class="md:col-span-2">
+                        <dt class="font-semibold text-gray-600">Full Text</dt>
+                        <dd><a href="bill_text_{{ bill.type|lower }}{{ bill.number }}.html" class="text-blue-600 hover:underline">View Full Bill Text</a></dd>
+                    </div>
+                    {% else %}
+                    <div class="md:col-span-2">
+                        <dt class="font-semibold text-gray-600">Full Text</dt>
+                        <dd class="text-gray-600">Full text not available via API - <a href="https://www.congress.gov/bill/{{ bill.congress }}th-congress/{{ 'house' if bill.originChamberCode == 'H' else 'senate' }}-{{ 'bill' if bill.type in ['HR', 'S'] else ('concurrent-resolution' if 'CON' in bill.type else ('joint-resolution' if 'J' in bill.type else 'resolution')) }}/{{ bill.number }}/text" class="text-blue-600 hover:underline" target="_blank">View on Congress.gov</a></dd>
                     </div>
                     {% endif %}
                 </dl>

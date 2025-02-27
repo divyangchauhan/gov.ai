@@ -32,28 +32,36 @@ class CongressAPI:
         response.raise_for_status()
         return response.json()
 
-def save_bills(bills, output_dir):
-    """Save fetched bills to JSON files."""
-    output_dir = Path(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+def save_bills(response_data, root_dir, raw_dir):
+    """Save fetched bills to JSON files and a summary JSON."""
+    raw_dir = Path(raw_dir)
+    raw_dir.mkdir(parents=True, exist_ok=True)
     
-    for bill in bills.get('bills', []):
-        bill_id = bill.get('billNumber', '')
-        if bill_id:
-            output_file = output_dir / f"{bill_id}.json"
+    # Save the complete response to bills.json in root directory
+    with open(root_dir / 'bills.json', 'w') as f:
+        json.dump(response_data, f, indent=2)
+    
+    # Also save individual bill files in raw_bills directory
+    for bill in response_data.get('bills', []):
+        bill_number = bill.get('number', '')
+        bill_type = bill.get('type', '').lower()
+        if bill_number and bill_type:
+            bill_id = f"{bill_type}{bill_number}"
+            output_file = raw_dir / f"{bill_id}.json"
             with open(output_file, 'w') as f:
                 json.dump(bill, f, indent=2)
 
 def main():
-    # Create data directories
-    data_dir = Path(__file__).parent.parent / "data"
+    # Set up directories
+    base_dir = Path(__file__).parent.parent
+    data_dir = base_dir / "data"
     raw_bills_dir = data_dir / "raw_bills"
     
     # Fetch and save bills
     api = CongressAPI()
     try:
         bills = api.fetch_recent_bills()
-        save_bills(bills, raw_bills_dir)
+        save_bills(bills, base_dir, raw_bills_dir)
         print(f"Successfully fetched and saved bills")
     except Exception as e:
         print(f"Error fetching bills: {e}")

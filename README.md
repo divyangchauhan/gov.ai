@@ -33,17 +33,31 @@ This project automatically fetches, summarizes, and publishes information about 
    export HUGGINGFACE_API_KEY=your_key_here
    ```
 
-3. Run the scripts:
+3. Run the pipeline:
    ```bash
+   # Fetch new bills from Congress.gov API
    python scripts/fetch_bills.py
-   python scripts/generate_site.py
+
+   # Generate AI summaries
+   python scripts/summarize_bills.py
+   
+   # Download full bill texts (when available)
+   python scripts/download_bill_text.py
+
+   # Generate HTML files
+   python scripts/generate_html.py
+
+   # Start local development server
+   cd public && python -m http.server 8000
    ```
+
+   Then visit http://localhost:8000 to view the site.
 
 ## Architecture
 
 - `scripts/`: Python scripts for fetching and processing bills
 - `templates/`: HTML templates for static site generation
-- `site/`: Generated static site content
+- `public/`: Generated static site content
 - `.github/workflows/`: GitHub Actions workflow configurations
 
 ## License

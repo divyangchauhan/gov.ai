@@ -22,13 +22,13 @@
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {% for bill in bills %}
             <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-xl font-semibold mb-2">{{ bill.billNumber }}</h2>
+                <h2 class="text-xl font-semibold mb-2">{{ bill.type }}{{ bill.number }}</h2>
                 <p class="text-gray-600 mb-4">{{ bill.title[:200] }}...</p>
                 <div class="mb-4">
                     <h3 class="font-semibold text-blue-600">AI Summary:</h3>
-                    <p class="text-gray-700">{{ bill.ai_summary[:200] }}...</p>
+                    <p class="text-gray-700">{{ bill.ai_summary[:200] if bill.ai_summary else 'Summary not available' }}...</p>
                 </div>
-                <a href="bill_{{ bill.billNumber }}.html" 
+                <a href="bill_{{ bill.type|lower }}{{ bill.number }}.html" 
                    class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
                     Read More
                 </a>
