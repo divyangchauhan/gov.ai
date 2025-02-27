@@ -79,10 +79,11 @@ def generate_html_files(bills_data, processed_bills, templates_dir, output_dir, 
 
 def main():
     base_dir = Path(__file__).parent.parent
-    bills_file = base_dir / 'bills.json'
+    data_dir = base_dir / 'data'
+    bills_file = data_dir / 'bills.json'
     templates_dir = base_dir / 'templates'
     output_dir = base_dir / 'public'
-    processed_dir = base_dir / 'data' / 'processed_bills'
+    processed_dir = data_dir / 'processed_bills'
     
     bills_data = load_bills(bills_file)
     processed_bills = load_processed_bills(processed_dir)
