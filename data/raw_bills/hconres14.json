@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "actionTime": "20:22:05",
+    "text": "On agreeing to the resolution, as amended Agreed to by the Yeas and Nays: 217 - 215 (Roll no. 50). (text: CR H818-823)"
+  },
+  "number": "14",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+  "type": "HCONRES",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/hconres/14?format=json"
+}

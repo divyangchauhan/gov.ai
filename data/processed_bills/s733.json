@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Foreign Relations."
+  },
+  "number": "733",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to improve the cooperation between the United States and the authorities of Taiwan with respect to travel and tourism.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/733?format=json",
+  "ai_summary": "A bill to improve the cooperation between the U.S. and the authorities of Taiwan with respect to travel and tourism. The bill was introduced in the Senate this week. It would allow the U.,S. to send officials to Taiwan to promote tourism and travel. It was introduced by Sen. Marco Rubio, R-Florida, and Sen. Tammy Duckworth, D-Illinois. It is expected to be voted on in the House of Representatives later this year, and if approved, it would go into effect in 2015."
+}

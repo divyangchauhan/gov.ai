@@ -1,0 +1,17 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "actionTime": "19:26:58",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
+  },
+  "number": "788",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "title": "DOE and SBA Research Act",
+  "type": "HR",
+  "updateDate": "2025-02-27",
+  "updateDateIncludingText": "2025-02-27",
+  "url": "https://api.congress.gov/v3/bill/119/hr/788?format=json",
+  "ai_summary": "The DOE and SBA Research Act of 2009 was passed by Congress. The Act funded research into the effects of climate change on humans and the environment. It was signed into law by President George W. Bush on June 14, 2009. The bill was passed with bipartisan support by the Senate and House of Representatives. For more information on the Act, visit www.sba.gov/research and www.doe.org/research-act-of-2009. For confidential support, call the Samaritans on 08457 90 90 90, visit a local Samaritans branch or click here for details."
+}

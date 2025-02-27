@@ -1,0 +1,315 @@
+{
+  "bills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "actionTime": "20:22:05",
+        "text": "On agreeing to the resolution, as amended Agreed to by the Yeas and Nays: 217 - 215 (Roll no. 50). (text: CR H818-823)"
+      },
+      "number": "14",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+      "type": "HCONRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/hconres/14?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "actionTime": "19:40:34",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": "804",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Rural Small Business Resilience Act",
+      "type": "HR",
+      "updateDate": "2025-02-27",
+      "updateDateIncludingText": "2025-02-27",
+      "url": "https://api.congress.gov/v3/bill/119/hr/804?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote. (consideration: CR S1359; text: CR S1358)"
+      },
+      "number": "96",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution designating the week of February 24 through February 28, 2025, as \"Public Schools Week\".",
+      "type": "SRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sres/96?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S1359; text: CR S1358-1359)"
+      },
+      "number": "97",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution honoring the life of Nebraska community leader Howard L. Hawks.",
+      "type": "SRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sres/97?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "actionTime": "19:26:58",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": "788",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "DOE and SBA Research Act",
+      "type": "HR",
+      "updateDate": "2025-02-27",
+      "updateDateIncludingText": "2025-02-27",
+      "url": "https://api.congress.gov/v3/bill/119/hr/788?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "number": "734",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to award a Congressional Gold Medal to Edward J. Dwight, Jr., the first African America astronaut candidate in the United States.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/734?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "27",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+      "type": "SJRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sjres/27?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Passed Senate without amendment by Yea-Nay Vote. 54 - 44. Record Vote Number: 92. (text: CR S1333)"
+      },
+      "number": "11",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to \"Protection of Marine Archaeological Resources\".",
+      "type": "SJRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sjres/11?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "731",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to prohibit conflicts of interest among consulting firms that simultaneously contract with China or other covered foreign entities and the United States Government, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/731?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Placed on the Union Calendar, Calendar No. 2."
+      },
+      "number": "1156",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Pandemic Unemployment Fraud Enforcement Act",
+      "type": "HR",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1156?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "number": "732",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Defense Production Act of 1950 with respect to foreign investments in United States agriculture, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/732?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "733",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to improve the cooperation between the United States and the authorities of Taiwan with respect to travel and tourism.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/733?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "26",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+      "type": "SJRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sjres/26?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "25",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
+      "type": "SJRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sjres/25?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": "730",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to direct the Secretary of the Interior to conduct a study to assess the suitability and feasibility of establishing the African Burial Ground International Memorial Museum and Educational Center at the African Burial Ground National Monument, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/730?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": "729",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Public Health Service Act to enhance compliance with hospital price transparency requirements, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/729?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Referred to the Committee on the Judiciary. (text: CR S1358)"
+      },
+      "number": "95",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution expressing support for the designation of February 23, 2025, to March 1, 2025, as \"National Fentanyl Awareness Week\" and raising awareness of the negative impacts of fentanyl in the United States.",
+      "type": "SRES",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/sres/95?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": "728",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to establish the African Burial Ground International Memorial Museum and Educational Center in New York, New York, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/728?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "727",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to correct the inequitable denial of enhanced retirement and annuity benefits to certain U.S. Customs and Border Protection Officers.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/727?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-02-25",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "725",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, to categorize public safety telecommunicators as a protective service occupation under the Standard Occupational Classification system, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-02-26",
+      "updateDateIncludingText": "2025-02-26",
+      "url": "https://api.congress.gov/v3/bill/119/s/725?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 206,
+    "next": "https://api.congress.gov/v3/bill?fromDateTime=2025-02-26T10:48:46Z&toDateTime=2025-02-27T10:48:46Z&offset=20&limit=20&format=json"
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json"
+  }
+}

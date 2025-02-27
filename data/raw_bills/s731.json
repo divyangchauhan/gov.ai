@@ -1,0 +1,15 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "number": "731",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to prohibit conflicts of interest among consulting firms that simultaneously contract with China or other covered foreign entities and the United States Government, and for other purposes.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/731?format=json"
+}

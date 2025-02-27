@@ -1,0 +1,15 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "number": "727",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to correct the inequitable denial of enhanced retirement and annuity benefits to certain U.S. Customs and Border Protection Officers.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/727?format=json"
+}

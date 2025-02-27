@@ -1,0 +1,15 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Referred to the Committee on the Judiciary. (text: CR S1358)"
+  },
+  "number": "95",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A resolution expressing support for the designation of February 23, 2025, to March 1, 2025, as \"National Fentanyl Awareness Week\" and raising awareness of the negative impacts of fentanyl in the United States.",
+  "type": "SRES",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/sres/95?format=json"
+}

@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Placed on the Union Calendar, Calendar No. 2."
+  },
+  "number": "1156",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "title": "Pandemic Unemployment Fraud Enforcement Act",
+  "type": "HR",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/hr/1156?format=json",
+  "ai_summary": "The U.S. Pandemic Unemployment Fraud Enforcement Act of 2012 was passed in response to the global economic crisis. The Act was designed to combat the rise in unemployment and unemployment insurance fraud. It was passed after a wave of unemployment fraud was reported in the United States in 2010. The bill was signed by President Barack Obama on July 7, 2012. The act was passed by Congress on July 14, 2012, and took effect on July 1, 2013. For more information on the Act, visit: http://www.cnn.com/2013/07/14/pandemic-unemployment-fraud-enactment-act-of-2012/index.html."
+}

@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+  },
+  "number": "732",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to amend the Defense Production Act of 1950 with respect to foreign investments in United States agriculture, and for other purposes.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/732?format=json",
+  "ai_summary": "A bill to amend the Defense Production Act of 1950 with respect to foreign investments in United States agriculture, and for other purposes. The bill was introduced in the U.S. House of Representatives on Tuesday. It was referred to the Senate Armed Services Committee, which voted on the bill on Wednesday. The Senate passed the bill, and the bill was sent to the House for consideration. The House voted on it again on Thursday, and it passed again on Friday, with a vote scheduled for later in the day."
+}

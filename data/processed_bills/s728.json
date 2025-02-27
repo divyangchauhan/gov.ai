@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+  },
+  "number": "728",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to establish the African Burial Ground International Memorial Museum and Educational Center in New York, New York, and for other purposes.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/728?format=json",
+  "ai_summary": "A bill to establish the African Burial Ground International Memorial Museum and Educational Center in New York, New York. The bill was introduced by New York City Councilman Ruben Navarrette. It would be the first of its kind in the U.S. and would be funded by donations from the public. It is expected to be passed by the end of the year and used for museum and other purposes. The museum would be dedicated to the African people of New York and New Jersey."
+}

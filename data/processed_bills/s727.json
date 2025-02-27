@@ -1,0 +1,16 @@
+{
+  "congress": 119,
+  "latestAction": {
+    "actionDate": "2025-02-25",
+    "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+  },
+  "number": "727",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to correct the inequitable denial of enhanced retirement and annuity benefits to certain U.S. Customs and Border Protection Officers.",
+  "type": "S",
+  "updateDate": "2025-02-26",
+  "updateDateIncludingText": "2025-02-26",
+  "url": "https://api.congress.gov/v3/bill/119/s/727?format=json",
+  "ai_summary": "A bill would correct the inequitable denial of enhanced retirement and annuity benefits to certain U.S. Customs and Border Protection Officers. The bill would also provide a path to citizenship for those who have served in the military. It would be the first of its kind in the history of the federal government. It was introduced by Sen. Marco Rubio, R-Florida, and would go through the Senate Judiciary Committee before going to President Obama for a vote. It is expected to be voted on by the end of the year."
+}
